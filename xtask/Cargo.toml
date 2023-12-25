@@ -1,0 +1,14 @@
+[package]
+name = "xtask"
+version = "0.1.0"
+authors = ["Alessandro Decina <alessandro.d@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+aya-gen = { path = "../aya-gen" }
+structopt = {version = "0.3", default-features = false }
+anyhow = "1"
+syn = "1"
+quote = "1"
+proc-macro2 = "1"
+indexmap = "1.6"
